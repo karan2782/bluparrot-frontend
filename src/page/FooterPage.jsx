@@ -4,7 +4,7 @@ import LowerFooter from '../component/LowerFooter'
 
 function FooterPage() {
   return (
-    <div >
+    <div className='py-[115px] px-[54px]' >
       <UpperFooter />
       <div></div>
       <LowerFooter />
