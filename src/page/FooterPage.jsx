@@ -1,10 +1,13 @@
 import React from 'react'
 import UpperFooter from '../component/UpperFooter'
+import LowerFooter from '../component/LowerFooter'
 
 function FooterPage() {
   return (
-    <div>
+    <div >
       <UpperFooter />
+      <div></div>
+      <LowerFooter />
     </div>
   )
 }
